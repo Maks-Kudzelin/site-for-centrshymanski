@@ -1,0 +1,80 @@
+/* Нeader + slider */
+.navbar-default {
+    background-color: #fff;
+}
+
+.navbar {
+    overflow: hidden;
+}
+.navbar-header {
+    display: block;
+    margin-top: 7px;
+}
+.navbar-nav > li > a {
+  font: 11px Ubuntu, Arial, sans-serif;
+  text-transform: uppercase;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #888;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #8dc5ad;
+}
+.active_link {
+  color:#8dc5ad!important; 
+}
+.navbar-brand {
+  padding: 0;
+}
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+    padding-left: 15px;
+}
+.navbar-nav > li {
+    margin-top: 6px;
+}
+
+
+.glyphicon-chevron-left {
+    background-image: url(../images/slide_left.png);
+    width: 20px;
+    height: 23px;
+}
+.glyphicon-chevron-right {
+    background-image: url(../images/slide_right.png);
+    width: 20px;
+    height: 23px;
+}
+
+/* END Нeader + slider */
+
+/* Services */
+.list-services {
+  text-align: center;
+}
+.main-services {
+  display: inline-block;
+  padding: 43px 8px 5px;
+}
+.href-services {
+    padding-bottom: 15px;
+    width: 195px;
+    font: 11px/13px Ubuntu, Arial, sans-serif;
+    color:#888;
+}
+.href-services>a {
+  font: 11px Ubuntu, Arial, sans-serif;
+  color:#888;
+}
+.href-services > h2 {
+  font: 13px Ubuntu, Arial, sans-serif;
+  text-transform: uppercase;
+  margin-top: 16px;
+}
+.href-services > h2:hover {
+  color:#8dc5ad;
+  cursor: pointer;
+}
+
+.list-services > .main-services> .href-services img {
+    max-width: 100%;
+}
