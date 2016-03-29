@@ -147,3 +147,56 @@ img {
     max-width: 185px;
   }
 }
+/* End about us block */
+
+/* All services */
+.all_services_block {
+  width: 100%;
+  text-align: center;
+}
+.title_all_services {
+  text-align: center;
+  padding-bottom: 5px;
+}
+.title_all_services > h3 {
+  font:14px Ubuntu, Arial, sans-serif;
+  color: #888;
+  text-transform: uppercase;
+}
+.mini_block_services {
+  width: 179px;
+  height: 85px;
+  overflow: hidden;
+  display: inline-block;
+  margin-bottom: 25px;
+}
+
+.title_mini_block_services {
+  width: 170px;
+  height: 24px;
+  margin-bottom: 12px;
+  text-align: left;
+}
+.title_mini_block_services > h4 {
+  font:12px/12px Ubuntu, Arial, sans-serif;
+}
+.title_mini_block_services > h4 > a {
+  font:12px/12px Ubuntu, Arial, sans-serif;
+  color: #77c9b3;
+}
+
+.mini_text_mini_block_services {
+  width: 170px;
+  font:10px/12px Ubuntu, Arial, sans-serif;
+  color: #888;
+  text-align: left;
+}
+.marker {
+  width: 7px;
+  height: 6px;
+  background-image: url(../images/marker_services.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  margin-left: -10px;
+  margin-top: 15px;
+}
