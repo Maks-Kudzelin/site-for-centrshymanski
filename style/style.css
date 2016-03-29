@@ -1,3 +1,7 @@
+img {
+  max-width: 100%;
+}
+
 /* Нeader + slider */
 .navbar-default {
     background-color: #fff;
@@ -55,6 +59,16 @@
   display: inline-block;
   padding: 43px 8px 5px;
 }
+.href-services-mozaika {
+  width:195px;
+  height: 42px;
+  color:#888;
+}
+.href-services-mozaika > h2{
+  font: 13px Ubuntu, Arial, sans-serif;
+  text-transform: uppercase;
+  margin-top: 16px;
+}
 .href-services {
     padding-bottom: 15px;
     width: 195px;
@@ -77,4 +91,59 @@
 
 .list-services > .main-services> .href-services img {
     max-width: 100%;
+}
+/* END  Services */
+
+/* About us block */
+.about_us_block {
+  width: 100%;
+  background-color: #F8F8F8;
+  padding-bottom: 45px;
+  text-align: center;
+}
+.title_about_us {
+  text-align: center;
+  padding-bottom: 17px;
+}
+.title_about_us > h3 {
+  font:14px Ubuntu, Arial, sans-serif;
+  color: #888;
+  text-transform: uppercase;
+}
+.img_about_us {
+  display: inline-block;
+  padding: 0 17px 17px;
+  vertical-align: top;
+}
+.about_us_block > .container > .img_about_us > img {
+  max-width: 100%;
+}
+
+.text_about_us {
+  display: inline-block;
+}
+.first_part_text_about_us {
+  padding-left: 17px;
+  padding-right: 17px;
+  float: left;
+  font:10px/12px Ubuntu, Arial, sans-serif;
+  color: #888;
+  text-align: left;
+}
+.second_part_text_about_us {
+  padding-left: 17px;
+  padding-right: 17px;
+  float: left;
+  font:10px/12px Ubuntu, Arial, sans-serif;
+  color: #888;
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+    .first_part_text_about_us{
+    max-width: 185px;
+  }
+  .second_part_text_about_us {
+    max-width: 185px;
+  }
 }
