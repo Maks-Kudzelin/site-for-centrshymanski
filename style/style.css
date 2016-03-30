@@ -240,7 +240,7 @@
   color: #888;
 }
 
-.open_all {
+.open_all, .close_all {
   width: 86px;
   font: 12px/18px Ubuntu, Arial, sans-serif;
   color: #77c9b3;
@@ -248,4 +248,60 @@
   cursor: pointer;
   padding-top:7px;
   margin: 0 auto;
+}
+
+/* End our specialists */
+
+/* page recalls */
+.our_specialists_block {
+  width: 100%;
+  text-align: center;
+}
+.title_our_recalls {
+  text-align: center;
+  padding-bottom: 5px;
+}
+.title_our_recalls > h3 {
+  font:14px Ubuntu, Arial, sans-serif;
+  color: #888;
+  text-transform: uppercase;
+}
+/* END page recalls */
+
+/* Footer */
+
+#footer {
+  background-color:#f8f8f8;
+  text-align: center;
+
+}
+.footer_text {
+  font:12px Ubuntu, Arial, sans-serif;
+  color: #888;
+  margin-top: 21px;
+  margin-bottom: 7px;
+}
+.footer_numbers_of_phones {
+  font:16px Ubuntu, Arial, sans-serif;
+  color: #77c9b3;
+}
+.footer_adress {
+  font:12px Ubuntu, Arial, sans-serif;
+  color: #888;
+  margin-top: 8px;
+}
+.footer_email {
+  font:12px Ubuntu, Arial, sans-serif;
+  color: #77c9b3;
+  margin-top: 12px;
+}
+.footer_links > a {
+  font:12px Ubuntu, Arial, sans-serif;
+  color: #e3e3e3;
+}
+.white_block {
+  height: 40px;
+  width: 100%;
+  background-color: #fff;
+  margin-top:28px;
 }
