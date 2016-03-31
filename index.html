@@ -19,7 +19,14 @@
     <!-- Carousel styles for this template -->
     <link href="style/carousel.css" rel="stylesheet">
     <link href="style/jcarousel.basic.css" rel="stylesheet">
+    <link href="style/responsiveslides.css" rel="stylesheet">
+    <link href="style/carousel_recalls.css" rel="stylesheet">
     <link href="style/style.css" rel="stylesheet">
+
+    <script src="script/jquery.min.js"></script>
+    <script src="script/bootstrap.min.js"></script>
+    <script src="script/by_scripts.js"></script>
+    <script src="script/responsiveslides.min.js"></script>
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
@@ -28,7 +35,21 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-   
+   <script>
+    // You can also use "$(window).load(function() {"
+    $(function () {
+
+      // Slideshow 1
+      $("#slider1").responsiveSlides({
+        auto: false,
+        pager: true,
+        nav: true,
+        namespace: "centered-btns"
+      });
+
+
+    });
+  </script>
   </head>
 
   <body>
@@ -414,7 +435,15 @@
                           <h3>Отзывы</h3>
                 </div>
                 <div class="recall">
-                        
+                       
+
+                        <div class="rslides_container">
+      <ul class="rslides" id="slider1">
+        <li> <img src="images/recalls.png" alt=""> <span class="text_recalls">Всем Привет! Хочу оставить отзыв о центре Сергея Шиманского. Я искала квалифицированного специалиста по неврологии. По счастью мне посоветовали центр сергея Шиманского. Здесь меня выслушали, дали неободимые рекомендации. Понравилось хорошее спокойное отношение. Записалась предварительно, очень удобно! Вссем рекомендую!</span> <span class="member_recalls">Анонимный пользователь</span></li>
+        <li><img src="images/recalls.png" alt=""> <span class="text_recalls">Мне этот центр очень нравится, хотя я попробовала и другие. Шиманский Сергей Александрович - это человек, к которому я обращаюсь уже около 3 лет. Он врач с большой буквы, всем рекомендую данного специалиста. Спасибо вам и вашему центру что помогли решить мою проблему! Если кто-то еще думает идти в данный центр или нет, то однозначно идти!</span> <span class="member_recalls">Анонимный пользователь</span></li>
+        <li><img src="images/recalls.png" alt=""> <span class="text_recalls">Центр посоветвоали друзья! Записался предврительно, пришел, получил консультацию. Все очень понравилось, буду обращаться еще. Таких специалистов как в центре Сергея Шиманского очень мало. Цены услуг полностью соответствуют их качеству. Так что если возникли какие-нибудь проблемы и в центре есть для вас помощь, можеет спокойно сюда обращаться!</span> <span class="member_recalls">Анонимный пользователь</span></li>
+      </ul>
+    </div> 
 
 
        
@@ -449,12 +478,6 @@
       <div class="white_block"></div>
     </div>
     <!-- End footer -->
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="script/jquery.min.js"></script>
-    <script src="script/bootstrap.min.js"></script>
-    <script src="script/by_scripts.js"></script>
+    
   </body>
 </html>
