@@ -29,8 +29,15 @@
 .navbar-brand {
   padding: 0;
 }
+@media (max-width: 768px) {
+.navbar-brand > img {
+    width: 100%;
+}
+}
+
 .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
-    padding-left: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .navbar-nav > li {
     margin-top: 6px;
@@ -101,6 +108,7 @@
 /* About us block */
 .about_us_block {
   width: 100%;
+  min-height: 300px;
   background-color: #F8F8F8;
   padding-bottom: 45px;
   text-align: center;
@@ -119,10 +127,14 @@
   padding: 0 17px 17px;
   vertical-align: top;
 }
-.about_us_block > .container > .img_about_us > img {
+.about_us_block > .container > .all_about_us_big_block > .img_about_us > img {
   max-width: 100%;
 }
-
+@media (max-width: 768px) {
+   .img_about_us {
+  width: 100%;
+}
+}
 .text_about_us {
   display: inline-block;
 }
@@ -151,11 +163,13 @@
     max-width: 185px;
   }
 }
+
 /* End about us block */
 
 /* All services */
 .all_services_block {
   width: 100%;
+  min-height: 316px;
   text-align: center;
   padding-bottom: 22px;
 }
@@ -223,9 +237,20 @@
   margin-right: 6px;
   margin-top: 10px;
 }
+@media (max-width: 768px) {
+   .specialist {
+  width: 245px;
+}
+}
 .img_specialist {
   float: left;
   margin: 28px 20px 0;
+}
+@media (max-width: 768px) {
+  .img_specialist {
+  float: left;
+  margin: 28px 15px 0;
+}
 }
 .title_specialist {
   width: 150px;
@@ -234,6 +259,11 @@
   color: #77c9b3;
   float: left;
   margin-bottom:7px;
+}
+@media (max-width: 768px) {
+   .title_specialist {
+  width: 100px;
+}
 }
 .upper_span {
   text-transform: uppercase;
@@ -252,12 +282,42 @@
   padding-top:7px;
   margin: 0 auto;
 }
-
+.time_work {
+  position: absolute;
+  width: 300px;
+  height: 165px;
+  background-color: #77c9b3;
+  text-align: center;
+  padding-top:55px;
+}
+.time_work_img {
+  display: inline-block;
+  vertical-align: top;
+}
+.time_work_title {
+  min-width: 100px;
+  display: inline-block;
+  font: bold 14px Ubuntu, Arial, sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: left;
+}
+.time_work_hours {
+  font: 10px Ubuntu, Arial, sans-serif;
+  color:#fff;
+  padding-top:4px;
+}
+@media (max-width: 768px) {
+   .time_work {
+  width: 245px;
+}
+}
 /* End our specialists */
 
 /* page recalls */
 .our_recalls_block {
   width: 100%;
+  min-height: 265px;
   text-align: center;
   padding-bottom: 5px;
 }
