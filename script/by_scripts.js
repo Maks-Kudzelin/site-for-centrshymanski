@@ -12,7 +12,10 @@ $(document).ready(function () {
 	$('.all_big_recalls').hide();
 	$('.time_work').hide();
 
+
+	$('.main_text_about_us').hide();
 	$('.list-services').fadeIn(2000);
+	$('.main_text_about_us').fadeIn(2000);
 
 	/* slide all blocks*/
 	$(window).scroll(function () {

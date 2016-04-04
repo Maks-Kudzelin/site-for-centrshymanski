@@ -394,3 +394,112 @@
   background-color: #fff;
   margin-top:28px;
 }
+
+/* About us */
+
+.name_of_page {
+  width:100%;
+  background-color: #f8f8f8;
+  margin-top:60px;
+  min-height: 50px;
+}
+@media (max-width: 340px) {
+   .name_of_page {
+  margin-top:120px;
+  min-height: 50px;
+}
+}
+.big_name_of_page {
+  font:18px Ubuntu, Arial, sans-serif;
+  color: #888;
+  text-transform: uppercase;
+  float: left;
+  padding-top: 12px;
+}
+
+.subpage {
+  font:10px Ubuntu, Arial, sans-serif;
+  float: right;
+  color:#8dc5ad;
+  padding-top:16px;
+}
+.not_active_subpage {
+  color: #888;
+}
+.not_active_subpage:hover {
+  text-decoration: underline;
+   color: #8dc5ad;
+}
+
+.active_subpage {
+  color:#8dc5ad;
+}
+
+.active_subpage:hover {
+  text-decoration: none;
+  color:#8dc5ad;
+}
+
+
+.main_text_about_us > .container > h1 {
+  font:16px Ubuntu, Arial, sans-serif;
+  color: #888;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 13px;
+}
+.img_about_us_vn {
+  display: inline-block;
+  vertical-align: top;
+}
+.img_about_us_vn > img {
+  width: 100%;
+}
+.text_first_about_us {
+  width: 510px;
+  display: inline-block;
+  font: 12px/20px Ubuntu, Arial, sans-serif;
+  color: #888;
+  padding-left:30px;
+}
+
+@media (max-width: 980px) {
+.text_first_about_us {
+  width: 100%;
+  padding-left:0;
+  padding-top:20px;
+}
+}
+.active_about_us_part {
+  display: block;
+  color: #8dc5ad;
+}
+.text_secod_about_us {
+  max-width: auto;
+  font: 12px/20px Ubuntu, Arial, sans-serif;
+  color: #888;
+  padding-top:20px;
+}
+
+.our_mission{
+  font: 12px/20px Ubuntu, Arial, sans-serif;
+  color: #888;
+  padding-top:20px;
+}
+.our_mission > h2 {
+  font: 14px/20px Ubuntu, Arial, sans-serif;
+  text-transform: uppercase;
+  color: #888;
+}
+
+.our_work{
+  font: 12px/20px Ubuntu, Arial, sans-serif;
+  color: #888;
+  padding-top:20px;
+  padding-bottom: 35px;
+}
+.our_work > h2 {
+  font: 14px/20px Ubuntu, Arial, sans-serif;
+  text-transform: uppercase;
+  color: #888;
+}
