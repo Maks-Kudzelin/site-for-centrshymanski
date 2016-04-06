@@ -14,8 +14,14 @@ $(document).ready(function () {
 
 
 	$('.main_text_about_us').hide();
+	$('.main_text_services').hide();
+	$('.main_text_news').hide();
+
+
 	$('.list-services').fadeIn(2000);
 	$('.main_text_about_us').fadeIn(2000);
+	$('.main_text_services').fadeIn(2000);
+	$('.main_text_news').fadeIn(2000);
 
 	/* slide all blocks*/
 	$(window).scroll(function () {

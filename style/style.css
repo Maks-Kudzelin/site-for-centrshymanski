@@ -632,3 +632,153 @@
   background-color:#77c9b3;
   color:#fff;
 }
+/* END services */
+
+/* News */
+.all_block_news {
+  margin-top:20px;
+}
+.main_text_news {
+  width: 100%;
+  text-align: center;
+}
+.mini_block_news {
+  max-width: 600px;
+  display: inline-block;
+  margin-bottom: -44px;
+}
+.main_block_news {
+  max-width: 600px;
+  overflow: hidden;
+  margin-bottom: 44px;
+}
+.header_news >h2 {
+  font:16px Ubuntu, Arial, sans-serif;
+  color:#888;
+  text-transform: uppercase;
+  padding-bottom: 15px;
+}
+.header_news >h2 >a{
+  font:16px Ubuntu, Arial, sans-serif;
+  color:#888;
+  text-transform: uppercase;
+}
+.header_news >h2 >a:hover{
+  font:16px Ubuntu, Arial, sans-serif;
+  color:#8dc5ad;
+  text-decoration: none;
+}
+.img_news > img {
+  width: 100%;
+  opacity: 0.7;
+}
+.preview_news {
+  font:12px/18px Ubuntu, Arial, sans-serif;
+  color:#888;
+  text-align: left;
+  margin-top:33px;
+}
+.button_preview_news {
+  width: 113px;
+  height: 40px;
+  border:1px solid #888;
+  float: left;
+  text-align: center;
+  margin-top:21px;
+  padding-top: 7px;
+}
+.button_preview_news:hover {
+  background-color: #8dc5ad;
+  cursor: pointer;
+}
+
+.button_preview_news > a {
+  font:11px Ubuntu, Arial, sans-serif;
+  color:#8dc5ad;
+  text-transform: uppercase;
+}
+.button_preview_news:hover > a {
+  color: #fff;
+  text-decoration: none;
+}
+.block_right_sidebar {
+  max-width: 260px;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 50px;
+}
+
+@media (max-width: 990px) {
+.block_right_sidebar {
+  max-width: 600px;
+  margin-left: 15px;
+}
+.category_services >h2 {
+  padding-bottom: 7px;
+}
+.category_services > a {
+  float: left;
+  padding-right: 20px;
+}
+}
+.category_services {
+  overflow: hidden;
+  text-align: left;
+  padding-bottom: 10px;
+}
+.category_services >h2 {
+  font:16px Ubuntu, Arial, sans-serif;
+  color:#888;
+  text-transform: uppercase;
+  padding-bottom: 7px;
+}
+.category_services >a {
+  display: block;
+  font:12px/21px Ubuntu, Arial, sans-serif;
+  color:#8dc5ad;
+  text-transform: uppercase;
+}
+.marker_category {
+  padding-right: 5px;
+}
+.category_services >a:hover {
+  text-decoration: none;
+  color: #888;
+}
+
+
+
+
+
+.last_recalls >h2 {
+  padding-bottom: 7px;
+}
+.last_recalls {
+  text-align: left;
+  overflow: hidden;
+}
+.last_recalls >h2 {
+  font:16px Ubuntu, Arial, sans-serif;
+  color:#888;
+  text-transform: uppercase;
+  padding-bottom: 7px;
+}
+.mini_recall {
+  margin-bottom: 30px;
+}
+.name_recall {
+  font:14px Ubuntu, Arial, sans-serif;
+  color:#8dc5ad;
+  text-transform: uppercase;
+}
+.date_recall > span {
+  font:11px Ubuntu, Arial, sans-serif;
+  color:#8dc5ad;
+  padding-right: 5px;
+}
+.mini_text_recall {
+  font:14px/18px Ubuntu, Arial, sans-serif;
+  color:#888;
+  padding-top:10px;
+}
