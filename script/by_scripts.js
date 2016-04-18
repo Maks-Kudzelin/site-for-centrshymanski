@@ -75,9 +75,22 @@ $('.specialist').hover(
     );
 /* END Hover block time_work of specialists*/
 
-
-
+$('input').focus(function(){
+		alt = $(this).attr('alt');
+		val = $(this).attr('value');
+		if (val == alt) $(this).attr('value', '');
 	});
+
+	$('input').blur(function(){
+		alt = $(this).attr('alt');
+		val = $(this).attr('value');
+		val = $.trim(val);
+		if (val == '') $(this).attr('value', alt);
+	});
+
+
+
+});
 
 
 	

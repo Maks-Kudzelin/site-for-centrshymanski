@@ -747,10 +747,6 @@
   color: #888;
 }
 
-
-
-
-
 .last_recalls >h2 {
   padding-bottom: 7px;
 }
@@ -781,4 +777,199 @@
   font:14px/18px Ubuntu, Arial, sans-serif;
   color:#888;
   padding-top:10px;
+}
+
+/* End news */
+
+/* Recalls */
+.main_text_recalls {
+  width: 100%;
+  text-align: center;
+}
+.all_block_recalls {
+  margin-top:20px;
+}
+.all_block_recalls > .mini_block_recalls > h2 {
+  font:16px Ubuntu, Arial, sans-serif;
+  color:#888;
+  text-transform: uppercase;
+  float:left;
+}
+.mini_block_recalls{
+  display: inline-block;
+  margin-bottom: -44px;
+  margin-right: 75px;
+}
+@media (max-width: 1010px) {
+.mini_block_recalls{
+  margin-right: 0;
+}
+}
+.form {
+  clear: both;
+  max-width: 500px;
+  overflow: hidden;
+  padding-bottom: 70px;
+}
+
+.input_name_recall {
+    display: block;
+    width: 100%;
+    font: 14px Ubuntu,Arial,sans-serif;
+    height: 30px;
+    margin-bottom: 25px;
+    padding-left: 20px;
+    padding-bottom: 2px;
+    color: #888;
+    border: 1px solid #888;
+}
+.input_email_recall {
+    display: block;
+    width: 100%;
+    font: 14px Ubuntu,Arial,sans-serif;
+    height: 30px;
+    margin-bottom: 25px;
+    padding-left: 20px;
+    padding-bottom: 2px;
+    color: #888;
+    border: 1px solid #888;
+}
+
+.input_textarea_rekall{
+    display: block;
+    width: 100%;
+    font: 14px Ubuntu,Arial,sans-serif;
+    height: 175px;
+    margin-bottom: 25px;
+    padding: 10px 20px;
+    border: 1px solid #888;
+    color: #888;
+}
+.submit_form {
+  width: 120px;
+  height: 30px;
+  border: 1px solid #888;
+  font: 14px Ubuntu, Arial, sans-serif;
+  text-transform: uppercase;
+  color:#8dc5ad;
+  text-align: center;
+  padding-top: 5px;
+  cursor: pointer;
+  float: right;
+}
+.submit_form:hover {
+  border: none;
+  background-color:#8dc5ad;
+  color: #fff; 
+}
+
+*::-moz-placeholder {
+    color: #888;
+    opacity: 1;
+}
+
+textarea {
+  resize: none;
+}
+
+.block_with_text_recall {
+  max-width: 500px;
+  border: 1px solid #888;
+  padding: 22px 17px 17px 17px;
+  overflow: hidden;
+  margin-bottom: 27px;
+}
+.img_man_recall {
+  width: 55px;
+  height: 55px;
+  float: left;
+  margin-right: 17px;
+  margin-bottom: 10px;
+}
+.text_with_name_recall {
+  max-width: 390px;
+  overflow: hidden;
+  float: left;
+}
+.name_recall {
+  display: block;
+  font: 13px Ubuntu, Arial, sans-serif;
+  color: #8dc5ad;
+  text-align: left;
+  padding-bottom: 14px;
+}
+.text_recall {
+  display: block;
+  font: 11px/14px Ubuntu, Arial, sans-serif;
+  color: #888;
+  text-align: left;
+}
+.date_recall {
+  display: block;
+  clear: both;
+  float: right;
+  font: 12px Ubuntu, Arial, sans-serif;
+  color: #696969;
+}
+.block_right_sidebar_recall {
+  max-width: 335px;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.last_services {
+  cursor: pointer;
+}
+.last_services > h2 {
+  text-align: right;
+  font: 16px Ubuntu, Arial, sans-serif;
+  color: #888;
+  text-transform: uppercase;
+  padding-bottom: 14px;
+}
+.mini_last_service {
+  margin-bottom: 40px;
+}
+.img_last_service {
+  border: 1px solid #888;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.img_last_service > img {
+  width: 120px;
+  height: 67px;
+  opacity: 0.7;
+}
+.head_last_service {
+  max-width: 200px;
+  float: left;
+ text-align: left;
+ margin-bottom: 10px;
+}
+.head_last_service > a {
+  font: 12px/18px Ubuntu, Arial, sans-serif;
+  color: #8dc5ad;
+  text-transform: uppercase;
+}
+.head_last_service > a:hover {
+  color: #888;
+  text-decoration: none;
+}
+.text_last_service {
+  clear: both;
+  max-width: 335px;
+  font: 12px/18px Ubuntu, Arial, sans-serif;
+  color: #888;
+  overflow: hidden;
+  text-align: left;
+}
+
+.last_news > h2 {
+  text-align: right;
+  font: 16px Ubuntu, Arial, sans-serif;
+  color: #888;
+  text-transform: uppercase;
+  padding-bottom: 14px;
 }
