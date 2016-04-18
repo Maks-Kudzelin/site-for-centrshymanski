@@ -427,8 +427,8 @@
   color: #888;
 }
 .not_active_subpage:hover {
-  text-decoration: underline;
-   color: #8dc5ad;
+  text-decoration: none;
+  color: #8dc5ad;
 }
 
 .active_subpage {
@@ -972,4 +972,156 @@ textarea {
   color: #888;
   text-transform: uppercase;
   padding-bottom: 14px;
+}
+/* End recalls */
+
+/* Contacts */
+.main_text_recalls {
+  text-align: center;
+}
+
+.map{
+  position: relative;
+  padding-bottom: 45%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+  margin-top:30px;
+  margin-bottom: 70px;
+}  
+
+.map iframe {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.contact_information {
+  max-width: 340px;
+  display: inline-block;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.contact_information > h2 {
+  font: 13px Ubuntu, Arial, sans-serif;
+  color: #888;
+  text-transform: uppercase;
+  text-align: left;
+}
+.contact_information  span {
+  display: block;
+}
+.info_first {
+  font: 10px/14px Ubuntu, Arial, sans-serif;
+  color: #8dc5ad;
+  margin-bottom: 16px;
+  text-align: left;
+}
+.info_second {
+  font: 10px/14px Ubuntu, Arial, sans-serif;
+  color: #888;
+  margin-bottom: 11px;
+  text-align: left;
+}
+.info_third {
+  font: bold 11px/14px Ubuntu, Arial, sans-serif;
+  color: #6e6e6e;
+  text-align: left;
+}
+.info_fourth {
+  font: 10px/14px Ubuntu, Arial, sans-serif;
+  color: #888;
+  text-align: left;
+}
+.contact_form {
+  max-width: 550px;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 55px;
+}
+.contact_form > h2 {
+  font: 13px Ubuntu, Arial, sans-serif;
+  color: #888;
+  text-transform: uppercase;
+  text-align: left;
+  padding-bottom: 7px;
+}
+
+.input_name_contacts {
+  width: 170px;
+  font: 10px Ubuntu,Arial,sans-serif;
+  height: 30px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  padding-bottom: 2px;
+  color: #888;
+  border: 1px solid #888;
+  margin-right:15px;
+}
+.input_email_contacts {
+  width: 170px;
+  font: 10px Ubuntu,Arial,sans-serif;
+  height: 30px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  padding-bottom: 2px;
+  color: #888;
+  border: 1px solid #888;
+  margin-right:15px;
+}
+.input_call_contacts {
+  width: 170px;
+  font: 10px Ubuntu,Arial,sans-serif;
+  height: 30px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  padding-bottom: 2px;
+  color: #888;
+  border: 1px solid #888;
+}
+.input_textarea_contacts {
+  width: 550px;
+  font: 10px Ubuntu,Arial,sans-serif;
+  height: 130px;
+  margin-bottom: 20px;
+  padding: 10px 10px;
+  border: 1px solid #888;
+  color: #888;
+}
+
+@media (max-width: 550px) {
+.input_textarea_contacts {
+  display: block;
+  width:230px;
+}
+.input_call_contacts {
+  display: block;
+}
+.input_email_contacts {
+  display: block;
+}
+.input_name_contacts {
+  display: block;
+}
+}
+.submit_form_contacts {
+  width: 80px;
+  height: 30px;
+  border: 1px solid #888;
+  font: 10px Ubuntu, Arial, sans-serif;
+  text-transform: uppercase;
+  color:#8dc5ad;
+  text-align: center;
+  padding-top: 8px;
+  cursor: pointer;
+  float: left;
+  margin-right: 15px;
+}
+.submit_form_contacts:hover {
+  border: none;
+  background-color:#8dc5ad;
+  color: #fff; 
+  padding-top: 9px;
 }
