@@ -1142,3 +1142,134 @@ textarea {
   background-color:#8dc5ad;
   color: #fff; 
 }
+/* End contacts */
+
+/* Internal-service-page */
+
+.main_internal_service_page {
+  width: 100%;
+  text-align: center;
+}
+.all_internal_service_page {
+  margin-top:50px;
+}
+.mini_block_internal_service_page {
+  max-width: 550px;
+  display: inline-block; 
+  padding-bottom: 38px;
+}
+.img_internal_page {
+  border:1px solid #888;
+}
+.img_internal_page > img {
+  width: 100%;
+  opacity: 0.7;
+}
+.prev_next {
+  width: 100%;
+  height: 36px;
+  border-top:1px solid #888;
+  border-bottom: 1px solid #888;
+  padding-top:8px;
+  padding-bottom: 8px;
+  margin-top:45px;
+}
+.prev_service {
+  width:60px;
+  height: 20px;
+  background-color:#888;
+  color:#fff;
+  font: bold 11px Ubuntu, Arial, sans-serif;
+  text-align: center;
+  padding-top:3px;
+  float: left;
+  cursor: pointer;
+}
+.prev_service:hover {
+  background-color:#fff;
+  color:#8dc5ad;
+}
+.next_service {
+  width:60px;
+  height: 20px;
+  background-color:#888;
+  color:#fff;
+  font: bold 11px Ubuntu, Arial, sans-serif;
+  text-align: center;
+  padding-top:3px;
+  float: right;
+  cursor: pointer;
+}
+.next_service:hover {
+  background-color:#fff;
+  color:#8dc5ad;
+}
+.posts_block_service {
+  width: 100%;
+  overflow: hidden;
+}
+.posts_block_service h3 {
+  font: 11px Ubuntu, Arial, sans-serif;
+  color:#888;
+  padding-top:20px;
+  padding-bottom: 17px;
+  text-transform: uppercase;
+}
+.last_post {
+  display: inline-block;
+  width:120px;
+  margin: 0 7px;
+  vertical-align: top;
+  text-align: left;
+  margin-bottom: 15px;
+}
+.last_post >img {
+  display: block;
+  margin-bottom: 25px;
+  opacity: 0.7;
+  border:1px solid #888;
+}
+.last_post > a {
+  font: 10px/12px Ubuntu, Arial, sans-serif;
+  color:#8dc5ad;
+}
+.last_post > a:hover {
+  color:#888;
+  text-decoration: none;
+}
+.block_right_sidebar_internal {
+  width: 340px;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 22px;
+}
+@media (max-width: 450px) {
+.block_right_sidebar_internal {
+  width:230px;
+  margin-left: 0;
+}
+}
+.name_post_service_internal {
+  width: 100%;
+  height: 32px;
+  border-top:1px solid #888;
+  border-bottom: 1px solid #888;
+  padding-top:8px;
+  padding-bottom: 9px;
+  text-align: left;
+  margin-bottom: 22px;
+  font: 11px Ubuntu, Arial, sans-serif;
+  color:#888;
+}
+.text_post_internal_service {
+  text-align: left;
+  font: 11px/18px Ubuntu, Arial, sans-serif;
+  color:#888;
+  overflow: hidden;
+  margin-bottom: 55px;
+}
+.bold_span_internal {
+  color: #545454;
+  padding-right: 10px;
+}
