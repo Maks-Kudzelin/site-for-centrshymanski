@@ -1109,12 +1109,12 @@ textarea {
 .submit_form_contacts {
   width: 80px;
   height: 30px;
+  background-color: #fff;
   border: 1px solid #888;
   font: 10px Ubuntu, Arial, sans-serif;
   text-transform: uppercase;
   color:#8dc5ad;
   text-align: center;
-  padding-top: 8px;
   cursor: pointer;
   float: left;
   margin-right: 15px;
@@ -1123,5 +1123,22 @@ textarea {
   border: none;
   background-color:#8dc5ad;
   color: #fff; 
-  padding-top: 9px;
+}
+.submit_form_contacts_del {
+  width: 80px;
+  height: 30px;
+  background-color: #fff;
+  border: 1px solid #888;
+  font: 10px Ubuntu, Arial, sans-serif;
+  text-transform: uppercase;
+  color:#8dc5ad;
+  text-align: center;
+  cursor: pointer;
+  float: left;
+  margin-right: 15px;
+}
+.submit_form_contacts_del:hover {
+  border: none;
+  background-color:#8dc5ad;
+  color: #fff; 
 }

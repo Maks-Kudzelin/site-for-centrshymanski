@@ -84,10 +84,8 @@ $('input').focus(function(){
 	$('input').blur(function(){
 		alt = $(this).attr('alt');
 		val = $(this).attr('value');
-		val = $.trim(val);
 		if (val == '') $(this).attr('value', alt);
 	});
-
 
 
 });
