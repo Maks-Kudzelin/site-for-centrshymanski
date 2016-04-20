@@ -16,23 +16,27 @@ $(document).ready(function () {
 	$('.main_text_about_us').hide();
 	$('.main_text_services').hide();
 	$('.main_text_news').hide();
-
+	$('.main_text_recalls').hide();
+	$('.main_internal_service_page').hide();
+	$('.scroll_top_block').hide();
 
 	$('.list-services').fadeIn(2000);
 	$('.main_text_about_us').fadeIn(2000);
 	$('.main_text_services').fadeIn(2000);
 	$('.main_text_news').fadeIn(2000);
+	$('.main_text_recalls').fadeIn(2000);
+	$('.main_internal_service_page').fadeIn(2000);
 
 	/* slide all blocks*/
 	$(window).scroll(function () {
 	if ($(this).scrollTop() > 100) {
 	$('.title_about_us').slideDown(1000);
+
     }
+    
     if ($(this).scrollTop() > 200) {
      $('.all_about_us_big_block').fadeIn(2000);
     }
-
-
 	if ($(this).scrollTop() > 400) {
 	$('.title_all_services').slideDown(1000);
     }
@@ -48,7 +52,27 @@ $(document).ready(function () {
     }
     });
 	/* END slide all blocks*/
-	
+
+	/*scroll_top to 0*/
+	$(function() {
+    $('.scroll_top_block').click(function(){
+       $('html, body').animate({scrollTop:0}, 'slow');
+      
+   });
+});
+
+	$(window).scroll(function () {
+	if ($(this).scrollTop() < 200) {
+	$('.scroll_top_block').fadeOut(1000);
+
+    } 
+    if ($(this).scrollTop() > 200) {
+	$('.scroll_top_block').fadeIn(500);
+
+    } 
+    });
+    /*End scroll_top to 0*/
+
 	/* Open all specialists*/
 	$('.open_all').click(function(){	
 
