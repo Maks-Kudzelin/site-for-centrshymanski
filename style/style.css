@@ -422,6 +422,7 @@
   float: right;
   color:#8dc5ad;
   padding-top:16px;
+  padding-bottom: 10px;
 }
 .not_active_subpage {
   color: #888;
@@ -636,7 +637,7 @@
 
 /* News */
 .all_block_news {
-  margin-top:20px;
+  margin-top:40px;
 }
 .main_text_news {
   width: 100%;
@@ -732,6 +733,7 @@
   color:#888;
   text-transform: uppercase;
   padding-bottom: 7px;
+  margin-top: 0;
 }
 .category_services >a {
   display: block;
@@ -891,20 +893,20 @@ textarea {
   overflow: hidden;
   float: left;
 }
-.name_recall {
+.mini_name_recall {
   display: block;
   font: 13px Ubuntu, Arial, sans-serif;
   color: #8dc5ad;
   text-align: left;
   padding-bottom: 14px;
 }
-.text_recall {
+.mini_text_recall {
   display: block;
   font: 11px/14px Ubuntu, Arial, sans-serif;
   color: #888;
   text-align: left;
 }
-.date_recall {
+.mini_date_recall {
   display: block;
   clear: both;
   float: right;
@@ -1272,4 +1274,48 @@ textarea {
 .bold_span_internal {
   color: #545454;
   padding-right: 10px;
+}
+/* End Internal-service-page */
+
+/* Internal-news-page */
+.mini_block_news_internal {
+  max-width: 600px;
+  display: inline-block;
+
+  padding-bottom: 30px;
+}
+.mini_internal_news_text {
+  font: 13px/18px Ubuntu, Arial, sans-serif;
+  color:#888;
+  text-align: left;
+}
+.mini_internal_news_text img {
+  width: 100%;
+  padding-bottom: 30px;
+  opacity: 0.7;
+}
+.mini_internal_news_text p {
+}
+.blue_internal {
+  color: #8dc5ad;
+}
+.mini_internal_news_date {
+  width: 100%;
+  height: 32px;
+  font: 9px Ubuntu, Arial, sans-serif;
+  color:#888;
+  text-align: left;
+  border-top:1px solid #888;
+  border-bottom: 1px solid #888;
+  padding-top:8px;
+  padding-bottom: 9px;
+  margin-top: 30px;
+}
+.mini_internal_news_date img {
+ vertical-align: middle;
+}
+@media (max-width: 340px) {
+.mini_internal_news_date {
+ height: 45px;
+}
 }
